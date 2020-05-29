@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    background: #F2F2F2;
+    padding: 10px;
+    justify-content: space-around;
+}
+.flex-item {
+    font-size: 30px;
+    padding: 20px;
+    color: #fff;
+    margin: 10px;
+    border-radius: 2.5px;
+}
+.flex-item-one {
+    background: #96CAEF;
+}
+.flex-item-two {
+    background: #8DE4AF;
+}
+.flex-item-three {
+    background: #E7717D;
+}
+.offset-1 {
+    margin-right: calc(75% + 20px);
+} 
