@@ -22,4 +22,18 @@
 }
 .offset-1 {
     margin-right: calc(75% + 20px);
-} 
+}
+@media screen and (max-width: 480px) {
+    .flex-container {
+        display: flex;
+        background: #F2F2F2;
+        padding: 10px;
+        justify-content: space-around;
+    }
+    .offset-1 {
+        margin-right: calc(25% + 20px);
+    }
+    .flex-container :nth-child(3) { order: 1; }
+    .flex-container :nth-child(1) { order: 2; }
+    .flex-container :nth-child(2) { order: 3; }
+}
